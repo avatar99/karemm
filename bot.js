@@ -3,7 +3,7 @@ const client = new Discord.Client();
 var prefix = ".";
 
 client.on('ready', () => {
-	console.log('Dream iS Here');
+	console.log('PsPs iS Here');
 });
 
 client.on('ready', () => {
@@ -34,7 +34,7 @@ client.on('ready', () => {
           message.channel.send(`✔️ **Done Listening Now __${dream}__** `)
       } else
       if (message.content.startsWith(prefix + 'st')) {
-    client.user.setGame(dream, "https://www.twitch.tv/dream");
+    client.user.setGame(dream, "https://www.twitch.tv/psps");
          message.channel.send(`✔️ **Done Stream Now  __${dream}__ **`)
       }
  
